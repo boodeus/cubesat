@@ -1,0 +1,12 @@
+class BatteryManager {
+public:
+    BatteryManager(float batt[]) {
+        batteries = batt;
+    }
+    float batteries[99];
+};
+class Battery {
+public:
+    Battery();
+    float power_level();
+};
